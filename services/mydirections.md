@@ -10,6 +10,8 @@ Be creative and use multiple parameters from the API documentation to earn a top
 
 ```
 https://YourDirectionsApiURLGoesHere
+
+https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination=Toronto&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 ```
 
 ## Next paste the full JSON response to this query here:
