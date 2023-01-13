@@ -18,9 +18,10 @@ Parameters added:
 alternatives= true
 avoid= tolls
 mode= transit
+waypoints= optimize:true
 
 Final URL:
-https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination=Toronto&alternatives=true&avoid=tolls&mode=transit&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
+https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination=Toronto&&waypoints=optimize:true&alternatives=true&avoid=tolls&mode=transit&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 
 ```
 
