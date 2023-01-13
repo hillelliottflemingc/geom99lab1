@@ -14,8 +14,12 @@ https://YourDirectionsApiURLGoesHere
 V1:
 https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination=Toronto&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 
-V2:
+Optional parameters added:
+alternatives= true
+
+Final URL:
 https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination=Toronto&alternatives=true&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
+
 ```
 
 ## Next paste the full JSON response to this query here:
