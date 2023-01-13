@@ -16,9 +16,10 @@ https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination
 
 Optional parameters added:
 alternatives= true
+avoid= tolls
 
 Final URL:
-https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination=Toronto&alternatives=true&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
+https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination=Toronto&alternatives=true&avoid=tolls&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 
 ```
 
