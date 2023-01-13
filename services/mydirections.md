@@ -18,9 +18,10 @@ Parameters added:
 avoid= tolls|ferries
 mode= transit
 arrival_time
+traffic_model= optimistic
 
 Final URL:
-https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination=Toronto&avoid=tolls|ferries&mode=transit&arrival_time&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
+https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination=Toronto&avoid=tolls|ferries&mode=transit&arrival_time&traffic_model=optimistic&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 
 ```
 
