@@ -27,7 +27,6 @@ https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination
 
 ## Next paste the full JSON response to this query here:
 
-```JSON
 {
    "geocoded_waypoints" : [
       {
@@ -67,17 +66,17 @@ https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination
          "legs" : [
             {
                "distance" : {
-                  "text" : "626 km",
-                  "value" : 625748
+                  "text" : "191 km",
+                  "value" : 190863
                },
                "duration" : {
-                  "text" : "1 day 9 hours",
-                  "value" : 118067
+                  "text" : "9 hours 57 mins",
+                  "value" : 35830
                },
-               "end_address" : "Toronto, ON, Canada",
+               "end_address" : "Ottawa, ON, Canada",
                "end_location" : {
-                  "lat" : 43.6532565,
-                  "lng" : -79.38303979999999
+                  "lat" : 45.4213651,
+                  "lng" : -75.6970503
                },
                "start_address" : "Montreal, QC, Canada",
                "start_location" : {
@@ -2688,25 +2687,72 @@ https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination
                   },
                   {
                      "distance" : {
-                        "text" : "0.6 km",
-                        "value" : 563
+                        "text" : "0.3 km",
+                        "value" : 268
                      },
                      "duration" : {
-                        "text" : "3 mins",
-                        "value" : 154
+                        "text" : "2 mins",
+                        "value" : 90
+                     },
+                     "end_location" : {
+                        "lat" : 45.4213651,
+                        "lng" : -75.6970503
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eAlbert St\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eOttawa 42\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "}qftG~~~lM?V@PBLb@pATp@b@tAh@bBFNFRDNL\\x@hC"
+                     },
+                     "start_location" : {
+                        "lat" : 45.4225502,
+                        "lng" : -75.69408439999999
+                     },
+                     "travel_mode" : "BICYCLING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : {
+                  "text" : "370 km",
+                  "value" : 369976
+               },
+               "duration" : {
+                  "text" : "19 hours 20 mins",
+                  "value" : 69597
+               },
+               "end_address" : "Oshawa, ON, Canada",
+               "end_location" : {
+                  "lat" : 43.8970998,
+                  "lng" : -78.8657942
+               },
+               "start_address" : "Ottawa, ON, Canada",
+               "start_location" : {
+                  "lat" : 45.4213651,
+                  "lng" : -75.6970503
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 295
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 64
                      },
                      "end_location" : {
                         "lat" : 45.41994649999999,
                         "lng" : -75.7002372
                      },
-                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eAlbert St\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eOttawa 42\u003c/b\u003e",
-                     "maneuver" : "turn-left",
+                     "html_instructions" : "Head \u003cb\u003esouthwest\u003c/b\u003e on \u003cb\u003eAlbert St\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eOttawa 42\u003c/b\u003e toward \u003cb\u003eR. O'Connor St\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eOttawa Regional Rd 87\u003c/b\u003e",
                      "polyline" : {
-                        "points" : "}qftG~~~lM?V@PBLb@pATp@b@tAh@bBFNFRDNL\\rAbEvAdEHPBFDJPh@|@nCBB@B@BFPt@~B"
+                        "points" : "qjftGpq_mMXx@vAdEHPBFDJPh@|@nCBB@B@BFPt@~B"
                      },
                      "start_location" : {
-                        "lat" : 45.4225502,
-                        "lng" : -75.69408439999999
+                        "lat" : 45.4213651,
+                        "lng" : -75.6970503
                      },
                      "travel_mode" : "BICYCLING"
                   },
@@ -5577,24 +5623,71 @@ https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination
                   {
                      "distance" : {
                         "text" : "0.2 km",
-                        "value" : 191
+                        "value" : 187
                      },
                      "duration" : {
                         "text" : "1 min",
-                        "value" : 78
+                        "value" : 77
+                     },
+                     "end_location" : {
+                        "lat" : 43.8970998,
+                        "lng" : -78.8657942
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eKing St W\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "up|jGb|j`N[yB]aCCOKw@[yB"
+                     },
+                     "start_location" : {
+                        "lat" : 43.8965942,
+                        "lng" : -78.8680193
+                     },
+                     "travel_mode" : "BICYCLING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : {
+                  "text" : "64.9 km",
+                  "value" : 64909
+               },
+               "duration" : {
+                  "text" : "3 hours 31 mins",
+                  "value" : 12640
+               },
+               "end_address" : "Toronto, ON, Canada",
+               "end_location" : {
+                  "lat" : 43.6532565,
+                  "lng" : -79.38303979999999
+               },
+               "start_address" : "Oshawa, ON, Canada",
+               "start_location" : {
+                  "lat" : 43.8970998,
+                  "lng" : -78.8657942
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "4 m",
+                        "value" : 4
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 1
                      },
                      "end_location" : {
                         "lat" : 43.8971109,
                         "lng" : -78.8657456
                      },
-                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eKing St W\u003c/b\u003e",
-                     "maneuver" : "turn-right",
+                     "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e on \u003cb\u003eKing St W\u003c/b\u003e toward \u003cb\u003eCentre St N\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eDurham Regional Rd 2A\u003c/b\u003e",
                      "polyline" : {
-                        "points" : "up|jGb|j`N[yB]aCCOKw@]aC"
+                        "points" : "{s|jGdnj`NAG"
                      },
                      "start_location" : {
-                        "lat" : 43.8965942,
-                        "lng" : -78.8680193
+                        "lat" : 43.8970998,
+                        "lng" : -78.8657942
                      },
                      "travel_mode" : "BICYCLING"
                   },
@@ -7583,46 +7676,18 @@ https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination
                   }
                ],
                "traffic_speed_entry" : [],
-               "via_waypoint" : [
-                  {
-                     "location" : {
-                        "lat" : 45.4213651,
-                        "lng" : -75.6970503
-                     },
-                     "step_index" : 109,
-                     "step_interpolation" : 0.4763649867980012
-                  },
-                  {
-                     "location" : {
-                        "lat" : 43.8970998,
-                        "lng" : -78.8657942
-                     },
-                     "step_index" : 230,
-                     "step_interpolation" : 0.978598835253117
-                  }
-               ]
+               "via_waypoint" : []
             }
          ],
          "overview_polyline" : {
-            "points" : "uavtGjs_`Mtb@_m@d{@zg@dT`K|dA|jAfvBjnGrfC`}GgKhuCkc@jvGcw@xrHlt@hhGnr@l}Az`DpbNvL`eD~Sfy@pq@fOh}@veEuv@tsCoeC|jC_`C~qDet@fQnH~`BqUrxBu_AfqAc_@bhCyoAzsFen@xiC{FneCpDltNefCty]_hDr{Qcl@~tNyCnmMop@rqOxSb_IfsAlrHtbAhhDmF~}CvA|cExaCf|E|zEbgHjcCz{Slm@xsPjoBdz_@ej@btLtHjaL`Jz_EqW~cDoKdjBfZj^v[xsAei@|zC`ZplD|~@dlExe@tlAbdBd`ApnEzlGfv@hzAtBvlAjxBqEzoHjcJntJbpQpgG`aLdeEjjL~b@~_Ahm@m\\zrA}i@loFwlCjjGsaC`fBuEb{A~fBrrBjlC|o@~wBflBl{BbuDpyHvwCn`H_BbrBdeBbeDvp@z|DdwBhcP~sBxgHzw@laCo]zzBh_BvpCy@brDjg@xaF|cAjiEpe@nrCneAnjAjfAf`Cr~@th@x|@x|@jPtjAnd@lfEnpAhsJnXjnJtrAjyDfj@~jAgm@hiAaGt~Cb|@tdCbs@~eHdhF|nJlaBj}HtjBx}BzeCfzAbiIzfDdwBzyBpxCt}GpiBtoFjx@bd@jx@vcBx~@pnEfn@tbFxSfcE~nCpmFnWrv@w\\lf@mCthArTp|Avi@faDfuB|aNbz@`eGp}Al`KbnAyXlp@xcCdx@tsEzq@zzCx~A|R`tAbeBftChlBpbFpn@lxEheAbd@vCnSdgAd_@pl@jdAnaClv@jRnfCna@~mCwm@|fDncD|a@|gCv}@h{A~aAhFpf@tZrd@cP|`@~m@vj@|nDrSpb@ro@uGnl@|dBj_AtYhnBoe@tf@oVnhA`dBbb@zgDrNdeCxeCnhOro@duEjDnqBkZ|v@_c@ng@j[nlDlcAdxGju@bgHv{AdbK~l@xnFhmBpmFnc@p|BsWr|AkEhpA`Mj{Bl\\~kEcEdbBep@z_@`WhpBdIxwCxi@lbDgCtiBtM`vBraAxrExCnpBtj@`Fe@d}@eXxiBjUhiCoUrrAwAbYwVny@tQv_@nf@vHxa@nmAgKr`A{}BdsBep@fCtq@uCddAzIbw@lvDpt@fhHrx@~oCzwAhHrn@~|@sOj}@xYbMdo@~jC`UvaDrXtlAmL~wAvK~tAu_An`@wUn|@ld@hWd_AwB`z@b`Ajv@nfAfbD~hDn{@veDbqB`hEdu@`jAmI~e@}BppAlbAzYr`BpbA`^xSpsBfaDxiAffEva@`_ElaAnrF"
+            "points" : "uavtGjs_`Mtb@_m@d{@zg@dT`K|dA|jAfvBjnGrfC`}GgKhuCkc@jvGcw@xrHlt@hhGnr@l}Az`DpbNvL`eD~Sfy@pq@fOh}@veEuv@tsCoeC|jC_`C~qDet@fQnH~`BqUrxBu_AfqAc_@bhCyoAzsFen@xiC{FneCpDltNefCty]_hDr{Qcl@~tNyCnmMop@rqOxSb_IfsAlrHtbAhhDmF~}CvA|cExaCf|E|zEbgHjcCz{Slm@xsPjoBdz_@ej@btLtHjaL`Jz_EqW~cDoKdjBfZj^v[xsAei@|zChXnkDj`AvlEze@~lAdbBh~@tpE|nGdv@|yA|BzlA~wBiEbpHbcJ~pJ~jQvgGbaLbfEtjLhd@ndAvm@k[dsAmj@foFklCdiGiaCneBqF~|AreB|bD`fGv`BzgBlyDb`Ip~CdlHuAnrBbeB`eDzq@l~DztBb~OltBfiHty@zcCq]l{B~{AzmC~@btDtf@|bF|bAtgE|f@ltCxcAtiAdgAl`Cn~@bj@nz@tt@hSvqAhc@daE~qAvwJ|WpnJ~rAfzDdj@djA_l@xgAeHp}Cb|@|gCpr@neH|eFliJxcBvbI|jBl~Bt~B|wAtjIjeD~zB`|B~xCj|GvjBjsFpw@r_@py@tgBf~@blEdp@vcFbRddEznCxmFbXhw@e\\pf@zNjcDpi@`bDnuBz`Nnz@pfGf}A`aKfnAwWfp@faCxx@tuEnq@|zCr~AvRzsAjcBvrChmBvcFtn@lwEleAle@hAxRvdAv_@pq@pcAv_C`x@~T|eCva@hlCao@heDl`Dpe@xhCx{@f{AvcA`Jfd@tWlf@aMfa@vj@vi@fjDzNpl@~t@}Lnl@jfBf~@f[|mBce@tg@kXxiAbdB|a@pfDhNteC~dCpcObq@l{EpEtqBu[jv@o`@ng@~U``DnfAneHrq@~cHl_BxdKli@pgF~pBfuF`c@n{BeVd}AqFroA~Lj{Bt\\dmEcDzaBcq@~_@bWjoB~HjxCti@lbDaCfjBjMvuBzaAjsErC|nB|i@xCxBj_Aa\\diBfUbkCoU~rAx@vTa\\vz@dRvb@te@jDbb@roAaJzbAi}BzrBgp@vGfp@wGhcAxC|v@ryDfv@bjH~w@`oCbO|[~fAyQpo@x}@{Nj}@fYtKfo@plCbU|`DxVjjAyJpzAfLftAqy@f_@a`@hw@dg@j_@l`AoCzx@z`Abv@deA`cDtiDz{@~eDxpBpgExu@pjAoIxe@kDhkAbbAf`@p~Ap_Af`@tUptBf`DriAjfEdb@l~DtaAltF"
          },
          "summary" : "Prescott-Russell Recreational Trail",
          "warnings" : [
             "Bicycling directions are in beta. Use caution – This route may contain streets that aren't suited for bicycling."
          ],
-         "waypoint_order" : []
+         "waypoint_order" : [ 0, 1 ]
       }
    ],
    "status" : "OK"
 }
-
-```
-____
-## Rubric
-
-This is part of your first practical lab in Week 3 
-
-1. A working URL properly documented in the MarkDown with a unique origin and destination earns 50%
-2. Including one to four additional functioning unique parameters from the API earns 50-70%
-3. Having 3 or more functioning unique/novel and well-thought out parameters from the API earns 70-90%
-4. Including more than 2 "stops", including links to display PlaceIDs on Google Maps, or other innovative presentations earns 80%-100%. 
