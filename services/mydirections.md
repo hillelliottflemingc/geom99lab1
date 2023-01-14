@@ -11,22 +11,19 @@ Be creative and use multiple parameters from the API documentation to earn a top
 ```
 https://YourDirectionsApiURLGoesHere
 
-V1:
-https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination=Toronto&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
-
 Parameters added:
 avoid= tolls|ferries
 mode= bicycle
 departure_time=now
 waypoints= Ottawa and Oshawa
-ChIJrxNRX7IFzkwR7RXdMeFRaoo
-ChIJM3XTzCEd1YkRv_xE-PLvjN0
+Ottawa place id: ChIJrxNRX7IFzkwR7RXdMeFRaoo
+Oshawa place id: ChIJM3XTzCEd1YkRv_xE-PLvjN0
 
 
 Final URL:
 https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination=Toronto&avoid=tolls|ferries&mode=bicycling&departure_time=now&waypoints=via%3AOttawa%7Cvia%3AOshawa&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 
-ORR:
+Or, URL using Place IDs as the waypoints:
 
 https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination=Toronto&avoid=tolls|ferries&mode=bicycling&departure_time=now&waypoint_place_ids=ChIJrxNRX7IFzkwR7RXdMeFRaoo%7CChIJM3XTzCEd1YkRv_xE-PLvjN0&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 
