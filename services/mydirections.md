@@ -26,6 +26,7 @@ https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination
 ```
 
 ## Next paste the full JSON response to this query here:
+```
 
 {
    "geocoded_waypoints" : [
