@@ -27,7 +27,10 @@ https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination
 
 ## Next paste the full JSON response to this query here:
 ```
+The URL to view full JSON can be accessed here:
+https://maps.googleapis.com/maps/api/directions/json?origin=Montreal&destination=Toronto&avoid=tolls|ferries&mode=bicycling&departure_time=now&waypoint_place_ids=true&waypoints=place_id:ChIJrxNRX7IFzkwR7RXdMeFRaoo%7Cplace_id:ChIJM3XTzCEd1YkRv_xE-PLvjN0&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 
+The Full JSON code from this URL is below:
 {
    "geocoded_waypoints" : [
       {
