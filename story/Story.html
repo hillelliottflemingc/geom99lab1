@@ -20,6 +20,17 @@
           margin: 0;
           padding: 0;
         }
+      
+        .pageTop{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        }
+
+#map{
+height: 100%;
+
+}
     </style>
     <script>
       let map;
@@ -33,10 +44,14 @@
     </script>
   </head>
   <body>
+    <div class= "pageTop">
+    Put Webpage text here
+    </div> 
+    
     <div id="map"></div>
     
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    <!-- *** STUDENTS: Replace YOUR_API_KEY text with provided key in class for property src in next line *** -->
+    <!-- Class API -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly" async>
     </script>
   </body>
