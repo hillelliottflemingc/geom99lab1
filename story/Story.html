@@ -38,6 +38,12 @@
       setMarkers(map);
       }
 
+      var mapOptions = {
+        /* center: new google.maps.LatLng(39.9078, 32.8252),
+        zoom: 10, */
+        mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+      
       // Data for the markers consisting of a name, a LatLng and a zIndex for the
       // order in which these markers should display on top of each other.
       const beaches = [
