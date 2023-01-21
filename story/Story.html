@@ -42,7 +42,7 @@
       
       // Data for the markers consisting of a name, a LatLng and a zIndex for the
       // order in which these markers should display on top of each other.
-      const beaches = [
+      const waterfalls = [
         ["Iguazu Falls", -25.6953, -54.4367, 4],
         ["Cascata do Caracol", -29.3406, -50.8043, 5],
         ["Santa Barbara", -13.5380, -47.492, 3],
@@ -73,16 +73,16 @@
       type: "poly",
       };
 
-      for (let i = 0; i < beaches.length; i++) {
-        const beach = beaches[i];
+      for (let i = 0; i < waterfalls.length; i++) {
+        const falls = waterfalls[i];
 
       new google.maps.Marker({
-      position: { lat: beach[1], lng: beach[2] },
+      position: { lat: falls[1], lng: falls[2] },
       map,
       icon: image,
       shape: shape,
-      title: beach[0],
-      zIndex: beach[3],
+      title: falls[0],
+      zIndex: falls[3],
       });
       }
       }
