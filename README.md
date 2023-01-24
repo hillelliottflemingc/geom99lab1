@@ -32,7 +32,7 @@ In this repository you will need to create content in this repository from the f
 - [yes] Maps - Simple HTML Map Example
 - [yes- improve?] Routes - Directions API - URL request JSON response
 - [yes] Modify Dynamic Map Clustering example to show Ontario Parks
-- [ ] Create your Story using Google Dynamic Maps (JavaScript) in the provided folder
+- [yes] Create your Story using Google Dynamic Maps (JavaScript) in the provided folder
 
 > Optional Tip: You can check the above boxes by editing this MarkDown document and adding an `x` between the `[ ]`, like this: `[x]`
 
